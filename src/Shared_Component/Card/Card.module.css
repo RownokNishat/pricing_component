@@ -2,20 +2,20 @@
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-
   border-radius: 10px;
   background-color: white;
   text-align: center;
   width: 33.3%;
   padding: 3% 5%;
-  height: 65vh;
+  height: 61vh;
   box-shadow: 5px #888888;
+  border: 1px solid #dbd8d8;
+  margin-top: 0px;
 }
 .middle_card_div {
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-
   border-radius: 10px;
   background-image: linear-gradient(
     to bottom,
@@ -25,32 +25,37 @@
   text-align: center;
   width: 33.3%;
   padding: 6% 5%;
-  height: 75vh;
+  height: 71vh;
   position: relative;
   bottom: 5vh;
   color: white;
+  opacity: 1 !important;
   box-shadow: 1px 1px #888888;
 }
 .card_title {
   padding-top: 0px;
-  opacity: 0.9;
+  opacity: 0.8;
+  font-weight: 700;
 }
 .card_text {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  opacity: 0.9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.8;
+  font-weight: 700;
 }
 .card_price_text {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   justify-content: center;
+  opacity: 0.95;
 }
 
 #card_price {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
   padding-left: 8px;
+  opacity: 0.95;
 }
 
 #dolar_sign {
@@ -58,6 +63,7 @@
   font-weight: 700;
   display: flex;
   align-items: center;
+  opacity: 0.95;
 }
 .card_button {
   width: 100%;
@@ -69,7 +75,9 @@
   color: white;
   border-radius: 5px;
   margin: 22px 0px;
-  padding: 7px 0px;
+  padding: 10px 0px;
+  letter-spacing: 2px;
+  font-size: 13px;
 }
 
 .mild_card_button {
@@ -78,5 +86,132 @@
   color: hsl(237, 63%, 64%);
   border-radius: 5px;
   margin: 22px 0px;
-  padding: 7px 0px;
+  padding: 10px 0px;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+@media screen and (max-width: 800px) {
+  .card_div {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 3% 12%;
+    height: 72vh;
+    border: 1px solid #dbd8d8;
+    box-shadow: 1px 1px 1px 1px #dbd8d8;
+    margin-bottom: 5vh;
+  }
+  .middle_card_div {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    background-image: linear-gradient(
+      to bottom,
+      hsl(236, 72%, 79%),
+      hsl(237, 63%, 64%)
+    );
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 3% 12%;
+    height: 72vh;
+    position: relative;
+    bottom: 0vh;
+    color: white;
+    box-shadow: 1px 1px 1px 1px #dbd8d8;
+    margin-bottom: 5vh;
+  }
+  .card_title {
+    padding-top: 14px;
+    opacity: 0.7;
+  }
+}
+@media screen and (max-width: 550px) {
+  .card_div {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 3% 12%;
+    height: 72vh;
+    border: 1px solid #dbd8d8;
+    box-shadow: 1px 1px 1px 1px #dbd8d8;
+    margin-bottom: 5vh;
+  }
+  .middle_card_div {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    background-image: linear-gradient(
+      to bottom,
+      hsl(236, 72%, 79%),
+      hsl(237, 63%, 64%)
+    );
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 3% 12%;
+    height: 72vh;
+    position: relative;
+    bottom: 0vh;
+    color: white;
+    box-shadow: 1px 1px 1px 1px #dbd8d8;
+    margin-bottom: 5vh;
+  }
+  .card_title {
+    padding-top: 14px;
+    opacity: 0.7;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .card_div {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    padding: 3% 12%;
+    height: 72vh;
+    border: 1px solid #dbd8d8;
+    box-shadow: 1px 1px 1px 1px #dbd8d8;
+    margin-bottom: 5vh;
+  }
+  .middle_card_div {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    background-image: linear-gradient(
+      to bottom,
+      hsl(236, 72%, 79%),
+      hsl(237, 63%, 64%)
+    );
+    text-align: center;
+    width: 100%;
+    padding: 3% 12%;
+    height: 72vh;
+    position: relative;
+    bottom: 0vh;
+    color: white;
+    box-shadow: 1px 1px 1px 1px #dbd8d8;
+    margin-bottom: 5vh;
+  }
+  .card_title {
+    padding-top: 14px;
+    opacity: 0.7;
+  }
 }
