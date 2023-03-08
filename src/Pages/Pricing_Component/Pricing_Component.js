@@ -12,15 +12,6 @@ const Pricing_Component = () => {
       <div className="form-control w-52  mx-auto mb-16 ">
         <label className="cursor-pointer label">
           <span className="label-text toggle_text">Annually</span>
-          {/* <input
-            type="checkbox"
-            className="toggle toggle-primary"
-            onChange={(e) => {
-              setChange(!change);
-            }}
-            checked={change}
-          /> */}
-
           <label class="switch">
             <input
               type="checkbox"

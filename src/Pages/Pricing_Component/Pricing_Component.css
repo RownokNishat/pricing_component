@@ -16,6 +16,7 @@
   height: 100vh;
   background-image: url("../../Assests/images/bg-bottom.svg"),
     url("../../Assests/images/bg-top.svg");
+
   background-position: left bottom, right top;
   background-repeat: no-repeat, no-repeat;
 }
