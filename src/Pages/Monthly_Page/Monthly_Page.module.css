@@ -3,6 +3,43 @@
   width: 70%;
   margin: auto;
 }
+@media screen and (max-width: 1020px) {
+  .Display_Card {
+    display: flex;
+    width: 80%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 890px) {
+  .Display_Card {
+    display: flex;
+    width: 90%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 890px) {
+  .Display_Card {
+    display: flex;
+    width: 98%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .Display_Card {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  .Display_Card {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+}
 @media screen and (max-width: 375px) {
   .Display_Card {
     display: flex;
