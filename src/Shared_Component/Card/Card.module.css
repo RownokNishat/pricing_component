@@ -1,0 +1,82 @@
+.card_div {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  width: 33.3%;
+  padding: 3% 5%;
+  height: 65vh;
+  box-shadow: 5px #888888;
+}
+.middle_card_div {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to bottom,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
+  text-align: center;
+  width: 33.3%;
+  padding: 6% 5%;
+  height: 75vh;
+  position: relative;
+  bottom: 5vh;
+  color: white;
+  box-shadow: 1px 1px #888888;
+}
+.card_title {
+  padding-top: 0px;
+  opacity: 0.9;
+}
+.card_text {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  opacity: 0.9;
+}
+.card_price_text {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+#card_price {
+  font-size: 50px;
+  font-weight: 700;
+  padding-left: 8px;
+}
+
+#dolar_sign {
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.card_button {
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
+  color: white;
+  border-radius: 5px;
+  margin: 22px 0px;
+  padding: 7px 0px;
+}
+
+.mild_card_button {
+  width: 100%;
+  background-color: white;
+  color: hsl(237, 63%, 64%);
+  border-radius: 5px;
+  margin: 22px 0px;
+  padding: 7px 0px;
+}

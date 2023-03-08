@@ -1,0 +1,17 @@
+.pricing_header {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+.priceComponent_div {
+  background-color: #f7f7ff;
+  height: 100vh;
+  background-image: url("../../Assests/images/bg-bottom.svg"),
+    url("../../Assests/images/bg-top.svg");
+  background-position: left bottom, right top;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.middle_card {
+  background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+}
